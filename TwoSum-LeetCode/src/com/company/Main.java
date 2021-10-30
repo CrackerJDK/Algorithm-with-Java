@@ -80,7 +80,7 @@ public class Main {
         }
 
         /**
-         * I want to rearrange the array a bit, maybe this step is not necessary
+         * I want to rearrange the array a bit, maybe this step is not necessary.
          */
 
         int [] twoNumber2 = Arrays.copyOf(twoNumber1, twoNumber1.length);
