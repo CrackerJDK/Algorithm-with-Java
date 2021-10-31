@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- Level of difficult: MEDIUM
+ *Level of difficult: MEDIUM
  */
 
 /**
