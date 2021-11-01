@@ -46,7 +46,7 @@ import java.util.Scanner;
  * Input: nums = [3,3], target = 6
  * Output: [0,1]
  */
-public class Main {
+public class TwoSum {
 
     public static Scanner input = new Scanner(System.in);
 
@@ -65,7 +65,7 @@ public class Main {
         System.out.println("Enter the target number");
         int targetNumber = input.nextInt();
 
-        Main obj = new Main();
+        TwoSum obj = new TwoSum();
         System.out.println(Arrays.toString(obj.getArray(array,targetNumber)));
 
     }
