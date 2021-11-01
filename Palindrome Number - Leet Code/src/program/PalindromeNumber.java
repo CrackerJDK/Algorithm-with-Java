@@ -77,9 +77,7 @@ public class PalindromeNumber {
             number = y;
             System.out.println(y);
         }
-        
         return z==checkMate;
-        
 
         /**
          * You can do an easier way is to create an array with elements in it and then convert that array to a number to check.
