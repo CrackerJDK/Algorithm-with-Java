@@ -63,7 +63,7 @@ public class PalindromeNumber {
             x/=10;
             count++;
         }
-        int z = 0;
+        long z = 0;
 
         int temp;
         for (int i = 1; i <= count; i++)
