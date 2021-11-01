@@ -46,7 +46,6 @@ public class PalindromeNumber {
         {
             System.out.println("This number is not a palindrome number");
         }
-
     }
 
     public static boolean isPalindromeNumber(int x) {
