@@ -77,7 +77,7 @@ public class Main {
         {
             for (int j = 1; j < n; j++)
             {
-                if (arr[i] + arr[j] == targetNumber)
+                if (arr[i] + arr[j] == targetNumber && i!=j)
                 {
                     twoNumber1 = new int[]{i, j};
                 }

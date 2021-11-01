@@ -38,12 +38,12 @@ public class PalindromeNumber {
             x/=10;
             count++;
         }
-        int z = 0;
+        long z = 0;
 
         int temp;
         for (int i = 1; i <= count; i++)
         {
-            y/=(Math.pow(10, count-i));
+            y/=(Math.pow(10, i-1));
             temp = y;
             z+=(y*(Math.pow(10,count-i)));
             System.out.println(z);
@@ -53,15 +53,10 @@ public class PalindromeNumber {
             System.out.println(y);
         }
 
+        return z==checkMate;
+
         /**
          * You can do an easier way is to create an array with elements in it and then convert that array to a number to check.
          */
-
-        if (z==checkMate)
-        {
-            return true;
-        }
-
-        else return false;
     }
 }
