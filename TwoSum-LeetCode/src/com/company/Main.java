@@ -84,12 +84,14 @@ public class Main {
             }
         }
 
-        /**
-         * I want to rearrange the array a bit, maybe this step is not necessary.
-         */
+        int temp;
+        if(twoNumber1[0]>twoNumber1[1])
+        {
+            temp = twoNumber1[1];
+            twoNumber1[1] = twoNumber1[0];
+            twoNumber1[0] = temp;
+        }
 
-        int [] twoNumber2 = Arrays.copyOf(twoNumber1, twoNumber1.length);
-        Arrays.sort(twoNumber2);
-        return twoNumber2;
+        return twoNumber1;
     }
 }
