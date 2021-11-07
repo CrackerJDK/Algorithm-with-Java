@@ -8,12 +8,14 @@ import java.util.Scanner;
  * 1+2+3+4+... <= N
  *
  * Example 1:
- * N = 16
- * 1+2+3+4+5 <= 16
+ *  N = 16
+ *  1+2+3+4+5 <= 16
  *
  * Example 2:
  *  N = 21
  *  1+2+3+4+5+6 <= 21
+ *
+ *  Constrain: N > 0
  */
 
 public class ArithmeticSequence {
