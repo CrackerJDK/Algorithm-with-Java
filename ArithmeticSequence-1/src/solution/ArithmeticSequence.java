@@ -5,11 +5,15 @@ import java.util.Scanner;
 /**
  * Input an integer number N and then print the sum of digits so that the condition is satisfied:
  *
- * 1+2+3+4+...<= N
+ * 1+2+3+4+... <= N
  *
- * Example:
- * N = 16:
- * 1+2+3+4+5<=16
+ * Example 1:
+ * N = 16
+ * 1+2+3+4+5 <= 16
+ *
+ * Example 2:
+ *  N = 21
+ *  1+2+3+4+5+6 <= 21
  */
 
 public class ArithmeticSequence {
